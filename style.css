@@ -1,0 +1,23 @@
+body {
+    font-size: 10pt;
+    background: #000000;
+}
+h1{
+ color: #FFFFFF;
+ background: #313131;
+ border-right: double;
+ border-top: double;
+ border-bottom: double;
+ border: double;
+ font-family: sans-serif;
+}
+h2{
+  color: #FFFFFF;
+}
+
+p {
+ color: #FFFFFF;
+}
+ul{
+  color: #FFFFFF;
+}
