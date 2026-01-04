@@ -1,6 +1,7 @@
 body {
     font-size: 10pt;
-    background: #872B2B;
+    background: #ff2e2e;
+    background: linear-gradient(327deg, rgba(255, 46, 46, 1) 0%, rgba(179, 49, 46, 1) 35%, rgba(74, 34, 34, 1) 100%);
 }
 h1{
  color: #B20909;
