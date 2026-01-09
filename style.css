@@ -1,27 +1,46 @@
 body {
-    font-size: 10pt;
-    background: #ff2e2e;
-    background: linear-gradient(327deg, rgba(255, 46, 46, 1) 0%, rgba(179, 49, 46, 1) 35%, rgba(74, 34, 34, 1) 100%);
+    background: #D09E3B;
+    margin: 0px;
 }
+
 h1{
- color: #B20909;
- background: #BE5A5A;
+ color: #B88A2F;
+ background: #3E2E0D;
  border-right: double;
  border-top: double;
  border-bottom: double;
  border: double;
- font-family: monospace;
+ font-family: 'Trebuchet MS';
  font-size: 30pt;
+ text-align: center;
 }
-h2{
+.navbar ul{
+  list-style-type: none;
+  background-color: #E08517;
+  border: double;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+}
+.navbar a{
   color: #FFFFFF;
-}
-
-p {
- color: #FF4D4D;
- font-family: monospace;
-}
-a{
-  color: #BA0909;
+  text-decoration: none;
   font-family: monospace;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: #A16720;
+}
+.navbar li{
+  float: left;
+}
+main {
+ font-family: monospace;
+ font-size: 25px;
+ color: white;
 }
