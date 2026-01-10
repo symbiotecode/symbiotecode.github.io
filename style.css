@@ -4,8 +4,8 @@ body {
 }
 
 h1{
- color: #B88A2F;
- background: #3E2E0D;
+ color: white;
+ background: #00ace6;
  border: 7px ridge #00bbff;
  filter: drop-shadow(5px 5px 10px #000000);
  font-family: 'Trebuchet MS';
