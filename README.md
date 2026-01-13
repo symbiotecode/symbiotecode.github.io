@@ -1,2 +1,3 @@
-# SymbioteCode's Website ⚡
-My personal site.
+# SymbioteCode's Website
+My website, hosted on Github pages!
+------------------------------------
