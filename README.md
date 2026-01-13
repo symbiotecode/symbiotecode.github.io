@@ -1,3 +1,3 @@
 # SymbioteCode's Website
-My website, hosted on Github pages!
-------------------------------------
+- My website, hosted on Github Pages
+  
