@@ -1,1 +1,20 @@
-
+body{
+  background: #557643;
+}
+h1{
+  background: #4E9C22;
+  border: 3px ridge #38502B;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  box-align: center;
+}
+p{
+  background: #366C1A;
+  margin-top: 0px;
+  box-align: center;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
