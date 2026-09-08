@@ -36,3 +36,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .navbar li{
     float: left;
 }
+h3 {
+   font-family: 'Press Start 2P', monospace;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  filter: drop-shadow(5px 5px 10px #000000);
+}
