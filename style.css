@@ -47,6 +47,7 @@ button {
    font-family: 'Press Start 2P', monospace;
   font-size: 30px;
   text-align: center;
+  background: red;
   color: white;
   filter: drop-shadow(5px 5px 10px #000000);
 }
