@@ -5,7 +5,7 @@ background-size: cover;
 margin: 2px; 
 }    
 h1 {
-  font-family: 'Press Start 2P', monospace;
+  font-family: "New Amsterdam", sans-serif;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -37,7 +37,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     float: left;
 }
 h3 {
-   font-family: 'Press Start 2P', monospace;
+   font-family: "New Amsterdam", sans-serif;
   font-size: 30px;
   text-align: center;
   color: white;
