@@ -13,6 +13,31 @@
     <link rel="stylesheet" href="">
   </head>
   <body>
+    <nav class="navbar">
+        <div class="menu-left">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu-right">
+            <a href="#" class="cta-button">Contact Us</a>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#" class="cta-button">Contact Us</a>
+    </div>
     <script src="" async defer></script>
   </body>
 </html>
