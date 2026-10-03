@@ -1,6 +1,9 @@
 body{
     background-color: #191919;
 }
+h1{
+    text-align: left;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
