@@ -17,6 +17,7 @@ body {
     display: flex;
     gap: 1em;
     margin: 0;
+    size: 90px;
 }
 
 .nav-links a {
