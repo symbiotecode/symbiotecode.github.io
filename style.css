@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
   background: linear-gradient(90deg, rgba(209, 192, 84, 1) 0%, rgba(166, 149, 43, 1) 35%, rgba(255, 251, 168, 1) 100%);
 }
 
@@ -8,7 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e6bf5e;
+    background-color: #3b3a38;
     padding: 0.5em 1em;
     color: #000000;
 }
