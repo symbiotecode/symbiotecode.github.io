@@ -4,7 +4,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 20px;
   font-style: normal;
-  background: linear-gradient(90deg, rgba(209, 192, 84, 1) 0%, rgba(166, 149, 43, 1) 35%, rgba(255, 251, 168, 1) 100%);
+  background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 h1{
