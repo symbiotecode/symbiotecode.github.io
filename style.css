@@ -1,31 +1,4 @@
-body {
-    margin: 0;
-    font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 20px;
-  font-style: normal;
-  background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+body{
+  background-color: #1e1e00;
 }
-/* Load the font. A <link> tag in your <head> is a touch faster than @import. */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P:wght@400&display=swap');
-
-/* Press Start 2P 34px - made with the BDLibraries CSS Text Styler */
-.hero-title {
-  font-family: 'Press Start 2P', cursive; /* loaded from Google Fonts */
-  font-size: 34px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #ffffff;
-  text-shadow: -3px 0px 0px #ff004d, 3px 0px 0px #00fff0;
-  animation: bdts-shake 0.6s steps(12, end) infinite;
-}
-
-/* The keyframes used above. Copy them along, otherwise nothing moves. */
-@keyframes bdts-shake{0%,100%{transform:translate(0,0)}20%{transform:translate(-3px,1px)}40%{transform:translate(3px,-1px)}60%{transform:translate(-2px,-2px)}80%{transform:translate(2px,2px)}}
-
-/* Respect visitors who asked their system for less motion. */
-@media (prefers-reduced-motion: reduce) {
-  .hero-title { animation: none; }
-}
-
+    
