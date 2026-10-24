@@ -5,12 +5,20 @@ title: Blog Posts
 
 # Welcome to my Blog
 
-Here is a list of my latest articles:
+Let's connect on Bluesky 🦋!
+
+---
+
+### Latest Articles
 
 {% for post in site.posts %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
-*Published on {{ post.date | date: "%B %d, %Y" }}*
+*📅 {{ post.date | date: "%b %d, %Y" }} • ⏳ {{ post.content | strip_html | number_of_words | divided_by: 180 | plus: 1 }} min read*
 
-{{ post.excerpt }}
+{{ post.excerpt | strip_html | truncatewords: 30 }}  
+[Read Article →]({{ post.url | relative_url }})
+
+---
 {% endfor %}
+
 
