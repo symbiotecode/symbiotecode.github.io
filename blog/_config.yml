@@ -2,3 +2,6 @@ title: SymbioteCode's Blog
 description: A place where I write about code, life, and tech.
 theme: jekyll-theme-cayman
 baseurl: "/blog"
+author: "Symbiote"
+bluesky_username: "symbiotecode.xyz" 
+github_username: "symbiotecode"
