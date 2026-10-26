@@ -1,0 +1,39 @@
+name: Build and Deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3
+          bundler-cache: true
+          working-directory: blog
+      - name: Build blog
+        working-directory: blog
+        run: bundle exec jekyll build -d ../_blog_out
+        env:
+          JEKYLL_ENV: production
+      - name: Assemble site
+        run: |
+          mkdir out
+          cp index.html about.html style.css CNAME out/
+          cp -r _blog_out out/blog
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - id: deployment
+        uses: actions/deploy-pages@v4
