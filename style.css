@@ -1,9 +1,43 @@
-body{
-  background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(116, 51, 196, 1) 100%, rgba(63, 44, 94, 1) 80%, rgba(69, 45, 106, 1) 91%, rgba(97, 60, 141, 1) 97%, rgba(113, 69, 161, 1) 100%);
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-h1{
-  color: #FFFFFF;
-  font-family: 'Minecraft', sans-serif;
-  text-align: center;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
 }
