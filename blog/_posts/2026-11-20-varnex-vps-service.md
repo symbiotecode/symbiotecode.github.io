@@ -5,7 +5,6 @@ date: 2026-10-26 08:53:00 -0400
 categories: [tech, tutorials]
 tags: [github, markdown, hosting, vps]
 ---
-
 ## Overview
 
 [Varnex](https://varnex.xyz/) is a VPS freenium hosting service!
