@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Review of Varnex: Free Server.
+title: "My Review of Varnex: Freenium Hosting.”
 date: 2026-10-26 08:53:00 -0400
 categories: [tech, tutorials]
 tags: [github, markdown, hosting, vps]
