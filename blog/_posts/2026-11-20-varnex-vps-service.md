@@ -22,6 +22,7 @@ tags: [github, markdown, hosting, vps]
 The service is ok for webpages and testing code or sandboxing stuff or learning linux
 
 Not really good for gameservers or a vpn.
-**Link**: [Varnex Freenium Hosting](https://shorturl.ly/qvs64)
-Discord: [Varnex](https://discord.gg/zbJJW3Rbpp)
+## **Link**: [Varnex Freenium Hosting](https://shorturl.ly/qvs64)
+
+## **Discord**: [Varnex](https://discord.gg/zbJJW3Rbpp)
 
